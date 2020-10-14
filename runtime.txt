@@ -1,0 +1,3 @@
+Q2. What is the worst case runtime of candidate? Be sure to define N and
+The worst-case is O(n), where n is the number of nodes.  The worse case happens when the prefix is an empty string.  In this case, the algorithm will traverse the whole tree (n), and then adding Strings from Character nodes (n). The whole process take O(2n).
+justify your answer.
